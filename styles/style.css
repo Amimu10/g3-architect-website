@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #131313;
+  --secondary-color: #727272;
+  --orange-color: #ff900e;
+}
+h1 {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  color: #131313;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h6 {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+p {
+  color: #727272;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.btn {
+  width: 180px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 45px 80px;
+}
+/* header styles */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #424242;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+
+/* banner styles */
+
+.banner {
+  background: rgba(255, 144, 14, 0.1);
+}
+.banner-content {
+  text-align: center;
+  max-width: 862px;
+  margin: 0 auto;
+}
+
+.banner .btn {
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.banner-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* team-feature styles */
+.feature {
+}
+
+.team-feature .container {
+  max-width: 1322px;
+}
+.team-feature-content {
+  display: flex;
+  align-items: center;
+  gap: 74px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-info {
+  max-width: 637px;
+}
+.feature-info h2 {
+  margin-bottom: 16px;
+}
+.feature-info h2 span:first-child {
+  color: #727272;
+}
+
+.feature-info h2 span:last-child {
+  color: #ff900e;
+}
+.feature-info .btn {
+  margin-top: 32px;
+}
+
+/* feature styles */
+.feature {
+  margin-bottom: -95px;
+}
+.feature .container {
+  max-width: 1440px;
+}
+
+.feature-content {
+  display: flex;
+  align-items: center;
+  gap: 146px;
+}
+
+.feature-head {
+  margin-bottom: 30px;
+}
+.feature-head h2 {
+  margin-bottom: 24px;
+  max-width: 468px;
+}
+.feature-text {
+  max-width: 586px;
+}
+
+.single-feature {
+  margin-bottom: 20px;
+  max-width: 514px;
+}
+.feature-img {
+  max-width: 518px;
+  height: 982px;
+}
+
+.experience-btn {
+  max-width: 342px;
+  height: 200px;
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  border: none;
+  position: relative;
+  bottom: 134px;
+  left: -157px;
+}
+
+.experience-btn span {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+/* facts styles */
+.facts {
+}
+
+.facts .container {
+  max-width: 1390px;
+}
+
+.facts-head {
+  max-width: 542px;
+  margin-bottom: 100px;
+}
+
+.facts-head h2 {
+  margin-bottom: 18px;
+}
+.facts-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 54px;
+}
+
+.facts-cards .card {
+  max-width: 241.831px;
+  height: 241.831px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 35px 15px 5px;
+}
+
+/* sponsor styles */
+.sponsor {
+  /* margin-bottom: 130px; */
+}
+.sponsor-head {
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+  
+}
+
+.sponsor-head h2{
+  margin-bottom: 24px;
+}
+.sponsor-image {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 55px;
+}
+
+.footer {
+  text-align: center;
+  background: #D9D9D9;
+  max-width: 1439px;
+  flex-shrink: 0;
+  margin-top: 125px;
+  margin-bottom: 216px;
+  padding: 30px 35px;
+}

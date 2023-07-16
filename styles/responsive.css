@@ -1,0 +1,98 @@
+/* responsive media queries */
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .banner-content {
+    /* max-width: 100%; */
+    height: auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+
+  .team-feature-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .team {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .team .team-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .feature-experience{
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  .experience-btn {
+    bottom: 0;
+    left: 0;
+  }
+
+  .facts {
+    margin-top: 122px;
+  }
+  .facts-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facts-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .facts-cards .card{
+     margin: 0 auto;
+     max-width: 100%;
+  
+  }
+  .sponsor-head {
+    max-width: 100%;
+    margin: 0 ;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .sponsor-head h2{
+    margin-bottom: 32px;
+  }
+  .sponsor-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
